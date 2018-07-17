@@ -11,12 +11,13 @@ The Poseidon Client works in co-operation with:
 * Check Balance of all accounts
 * Send/Recieve Tokens from any of the accounts
 
-# TODO
+## TODO
+
  Key: 
  
- (UI) - Functionality is present, however the UI is not.
+* (UI) - Functionality is present, however the UI is not.*
  
- (60%) - Functionality is 60% completed
+* (60%) - Functionality is 60% completed *
 
 - QR scanning 
 - 80% Unit test coverage 
