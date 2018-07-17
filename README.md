@@ -1,4 +1,4 @@
-# Poseidon---Client
+# Read Me
 
 The Poseidon Client works in co-operation with:
 
