@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+
+        var homeViewController : UIViewController
+        
+        if isFirstLaunch() {
+             homeViewController = FirstLaunchViewController()
+        } else {
+            homeViewController = NavViewController(rootViewController: AccountsViewController())
+        }
+        
+//        let homeViewController = NavViewController(rootViewController: AccountsViewController())
+//        let homeViewController = UIPVC(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+//        let homeViewController = FirstLaunchViewController()
+        window!.rootViewController = homeViewController
+        window!.makeKeyAndVisible()
         return true
     }
 
@@ -39,6 +53,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func isFirstLaunch()->Bool{
+        let defaults = UserDefaults.standard
+        
+        if let isAppAlreadyLaunchedOnce = defaults.string(forKey: "isAppAlreadyLaunchedOnce"){
+            return false
+        }else{
+            defaults.set(true, forKey: "isAppAlreadyLaunchedOnce")
+            return true
+        }
     }
 
 

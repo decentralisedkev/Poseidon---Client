@@ -1,0 +1,11 @@
+framework module "Hello" {
+	header "ref.h"
+    header "Hello.objc.h"
+    header "ContractTransaction.objc.h"
+    header "Rpc.objc.h"
+    header "Util.objc.h"
+    header "universe.objc.h"
+    header "Hello.h"
+
+    export *
+}
