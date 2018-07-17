@@ -15,6 +15,7 @@ The Poseidon Client works in co-operation with:
  Key: 
  
  (UI) - Functionality is present, however the UI is not.
+ 
  (60%) - Functionality is 60% completed
 
 - QR scanning 
