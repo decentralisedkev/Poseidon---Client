@@ -1,0 +1,6 @@
+framework module Pods_psdnTests {
+  umbrella header "Pods-psdnTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

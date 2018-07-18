@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.7.2)
+  - EllipticCurveKeyPair (1.0.2)
+  - KeychainSwift (11.0.0)
+  - MarqueeLabel/Swift (3.1.6)
+  - NotificationBannerSwift (1.6.3):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - NVActivityIndicatorView (4.2.1):
+    - NVActivityIndicatorView/Presenter (= 4.2.1)
+  - NVActivityIndicatorView/Presenter (4.2.1)
+  - PageMenu (2.0.0)
+  - Presentr (1.3.2)
+  - QRCode (2.0)
+  - Realm (3.7.4):
+    - Realm/Headers (= 3.7.4)
+  - Realm/Headers (3.7.4)
+  - RealmSwift (3.7.4):
+    - Realm (= 3.7.4)
+  - SkyFloatingLabelTextField (3.5.1)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - EllipticCurveKeyPair
+  - KeychainSwift (~> 11.0)
+  - NotificationBannerSwift
+  - NVActivityIndicatorView
+  - PageMenu
+  - Presentr
+  - QRCode
+  - RealmSwift
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SnapKit (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  EllipticCurveKeyPair: 80c2effda68925851c12562dcfc3fe94489b5eba
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  MarqueeLabel: 0c41f08ef5773e29c0f71064a8fa788a2fd8b365
+  NotificationBannerSwift: b231e4c3244848ef300e1c53ce027b9756b9b06f
+  NVActivityIndicatorView: 8068ba3ad39cb44cbaab25d89ff2546b3f092681
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+  Presentr: 797ae6ec8904eaba4ec58a4c2065bd66e31569ea
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
+  RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
+  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: cf5c60cefccfe48fbe612e1d9a6a2c254346434c
+
+COCOAPODS: 1.3.1
