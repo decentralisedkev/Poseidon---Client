@@ -48,6 +48,7 @@
 		CA805E1A20D31744000720BE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA805E1920D31744000720BE /* DBManager.swift */; };
 		CA8B4F8520D535CF00327085 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8B4F8420D535CF00327085 /* UIView+Extension.swift */; };
 		CA96A15C20FF712700010BC1 /* Asset+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96A15B20FF712700010BC1 /* Asset+Constants.swift */; };
+		CA96A15F20FF723B00010BC1 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CA96A15E20FF723B00010BC1 /* readme.md */; };
 		CA9BFC0A20D92D540040B5BD /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC0920D92D540040B5BD /* Readme.swift */; };
 		CA9BFC0E20D92E590040B5BD /* RealmDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC0D20D92E590040B5BD /* RealmDBManager.swift */; };
 		CA9BFC1120D92F150040B5BD /* RealmModel_Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC1020D92F150040B5BD /* RealmModel_Asset.swift */; };
@@ -159,6 +160,7 @@
 		CA805E1920D31744000720BE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		CA8B4F8420D535CF00327085 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CA96A15B20FF712700010BC1 /* Asset+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Constants.swift"; sourceTree = "<group>"; };
+		CA96A15E20FF723B00010BC1 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		CA9BFC0920D92D540040B5BD /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
 		CA9BFC0D20D92E590040B5BD /* RealmDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBManager.swift; sourceTree = "<group>"; };
 		CA9BFC1020D92F150040B5BD /* RealmModel_Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel_Asset.swift; sourceTree = "<group>"; };
@@ -422,7 +424,9 @@
 		CA96A15D20FF714300010BC1 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				CA805E1920D31744000720BE /* DBManager.swift */,
 				CA53621520CEF914002CDC1E /* ViewControllers */,
+				CA96A15E20FF723B00010BC1 /* readme.md */,
 			);
 			path = Experiment;
 			sourceTree = "<group>";
@@ -550,7 +554,6 @@
 				CAB0A49020C6EF4D0094715E /* LaunchScreen.storyboard */,
 				CAB0A49320C6EF4D0094715E /* Info.plist */,
 				CAB0A4B920C7F1B40094715E /* Contract.swift */,
-				CA805E1920D31744000720BE /* DBManager.swift */,
 			);
 			path = psdn;
 			sourceTree = "<group>";
@@ -755,6 +758,7 @@
 				CAD5C8F320CDB637007E16DD /* LatoFont in Resources */,
 				CAD5C92E20CDC4DA007E16DD /* Lato-MediumItalic.ttf in Resources */,
 				CAD5C93320CDC4DA007E16DD /* Lato-Bold.ttf in Resources */,
+				CA96A15F20FF723B00010BC1 /* readme.md in Resources */,
 				CAD5C93020CDC4DA007E16DD /* Lato-Heavy.ttf in Resources */,
 				CAD5C93920CDC4DA007E16DD /* Lato-HeavyItalic.ttf in Resources */,
 				CAD5C93120CDC4DA007E16DD /* Lato-ThinItalic.ttf in Resources */,
