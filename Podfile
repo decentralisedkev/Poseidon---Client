@@ -15,7 +15,6 @@ target 'psdn' do
     pod 'Presentr'
     pod 'SkyFloatingLabelTextField', '~> 3.0'
     pod 'QRCode'
-    pod 'PageMenu'
     pod 'NVActivityIndicatorView'
     pod 'NotificationBannerSwift'
   target 'psdnTests' do

@@ -8,9 +8,6 @@
 
 import Foundation
 
-
-
-
 struct Service_Input: Decodable {
     var TxID_N : String
     var BlockNumber : Int

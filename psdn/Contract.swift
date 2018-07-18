@@ -21,22 +21,6 @@ class Transaction: Encodable {
     }
     
 }
-//TODO: In Golang scriptbuilder, we want to check whether a string is an address, then serialise as a byte arr
-struct ScriptBuilder {
-    var Operation : String = ""
-    var Scripthash : String = ""
-    var Args : [Any] = [Any]()
-    var Dictionary: [String: Any] {
-        return ["Operation": Operation,"Args": Args,"Scripthash": Scripthash]
-    }
-}
-
-struct InvocTransfer :Codable {
-    var From :String
-    var To : String
-    var Amount : Int64
-    var Scripthash : String
-}
 
 struct Attribute :Codable {
     var Usage : UInt16
@@ -54,6 +38,25 @@ struct Output :Codable {
     var Value : Int64
     var AssetID : String?
 }
+
+
+//TODO: In Golang scriptbuilder, we want to check whether a string is an address, then serialise as a byte arr
+struct ScriptBuilder {
+    var Operation : String = ""
+    var Scripthash : String = ""
+    var Args : [Any] = [Any]()
+    var Dictionary: [String: Any] {
+        return ["Operation": Operation,"Args": Args,"Scripthash": Scripthash]
+    }
+}
+
+//struct InvocTransfer :Codable {
+//    var From :String
+//    var To : String
+//    var Amount : Int64
+//    var Scripthash : String
+//}
+
 
 func dataWithHexString(hex: String) -> Data {
     var hex = hex

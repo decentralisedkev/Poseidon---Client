@@ -47,6 +47,7 @@
 		CA805E1820D30AF2000720BE /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA805E1720D30AF2000720BE /* PlaygroundTests.swift */; };
 		CA805E1A20D31744000720BE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA805E1920D31744000720BE /* DBManager.swift */; };
 		CA8B4F8520D535CF00327085 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8B4F8420D535CF00327085 /* UIView+Extension.swift */; };
+		CA96A15C20FF712700010BC1 /* Asset+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96A15B20FF712700010BC1 /* Asset+Constants.swift */; };
 		CA9BFC0A20D92D540040B5BD /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC0920D92D540040B5BD /* Readme.swift */; };
 		CA9BFC0E20D92E590040B5BD /* RealmDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC0D20D92E590040B5BD /* RealmDBManager.swift */; };
 		CA9BFC1120D92F150040B5BD /* RealmModel_Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BFC1020D92F150040B5BD /* RealmModel_Asset.swift */; };
@@ -63,8 +64,6 @@
 		CAB0A4A820C6EF4D0094715E /* psdnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0A4A720C6EF4D0094715E /* psdnUITests.swift */; };
 		CAB0A4B820C6F1590094715E /* hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB0A4B720C6F1590094715E /* hello.framework */; };
 		CAB0A4BA20C7F1B40094715E /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0A4B920C7F1B40094715E /* Contract.swift */; };
-		CAB5AA4A20DACB59008873ED /* ServiceReadme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5AA4920DACB59008873ED /* ServiceReadme.swift */; };
-		CAB5AA4C20DAD2D9008873ED /* Service_UTXO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5AA4B20DAD2D9008873ED /* Service_UTXO.swift */; };
 		CAB6EB4720D9816F00CCFEFD /* SignedTransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6EB4620D9816F00CCFEFD /* SignedTransactionResponse.swift */; };
 		CAB6EB4920D982E900CCFEFD /* SigningKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6EB4820D982E900CCFEFD /* SigningKeys.swift */; };
 		CACB26BC20E3EFAC0096BE1B /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB26BB20E3EFAC0096BE1B /* PopupVC.swift */; };
@@ -159,6 +158,7 @@
 		CA805E1720D30AF2000720BE /* PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundTests.swift; sourceTree = "<group>"; };
 		CA805E1920D31744000720BE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		CA8B4F8420D535CF00327085 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CA96A15B20FF712700010BC1 /* Asset+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Constants.swift"; sourceTree = "<group>"; };
 		CA9BFC0920D92D540040B5BD /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
 		CA9BFC0D20D92E590040B5BD /* RealmDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBManager.swift; sourceTree = "<group>"; };
 		CA9BFC1020D92F150040B5BD /* RealmModel_Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel_Asset.swift; sourceTree = "<group>"; };
@@ -181,8 +181,6 @@
 		CAB0A4A920C6EF4D0094715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB0A4B720C6F1590094715E /* hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hello.framework; sourceTree = "<group>"; };
 		CAB0A4B920C7F1B40094715E /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
-		CAB5AA4920DACB59008873ED /* ServiceReadme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceReadme.swift; sourceTree = "<group>"; };
-		CAB5AA4B20DAD2D9008873ED /* Service_UTXO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_UTXO.swift; sourceTree = "<group>"; };
 		CAB6EB4420D9786D00CCFEFD /* psdn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = psdn.entitlements; sourceTree = "<group>"; };
 		CAB6EB4620D9816F00CCFEFD /* SignedTransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedTransactionResponse.swift; sourceTree = "<group>"; };
 		CAB6EB4820D982E900CCFEFD /* SigningKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningKeys.swift; sourceTree = "<group>"; };
@@ -301,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				CA53621720CEFA2B002CDC1E /* Colors+Constants.swift */,
+				CA96A15B20FF712700010BC1 /* Asset+Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -366,7 +365,6 @@
 			children = (
 				CAB5AA4820DACB44008873ED /* Models */,
 				CA7815C920DABD6B0056884E /* Service.swift */,
-				CAB5AA4920DACB59008873ED /* ServiceReadme.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -419,6 +417,14 @@
 				CA805E1720D30AF2000720BE /* PlaygroundTests.swift */,
 			);
 			path = PlaygroundExperiments;
+			sourceTree = "<group>";
+		};
+		CA96A15D20FF714300010BC1 /* Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				CA53621520CEF914002CDC1E /* ViewControllers */,
+			);
+			path = Experiment;
 			sourceTree = "<group>";
 		};
 		CA9BFC0820D92D400040B5BD /* Managers */ = {
@@ -530,11 +536,11 @@
 		CAB0A48620C6EF4D0094715E /* psdn */ = {
 			isa = PBXGroup;
 			children = (
+				CA96A15D20FF714300010BC1 /* Experiment */,
 				CA1264F220DD817700818518 /* NewVCs */,
 				CAB6EB4420D9786D00CCFEFD /* psdn.entitlements */,
 				CA9BFC0820D92D400040B5BD /* Managers */,
 				CA53621620CEFA0B002CDC1E /* Constants */,
-				CA53621520CEF914002CDC1E /* ViewControllers */,
 				CAD5C8F220CDB637007E16DD /* LatoFont */,
 				CA6742CF20C94A220018200F /* Extensions */,
 				CAB0A4B720C6F1590094715E /* hello.framework */,
@@ -570,7 +576,6 @@
 		CAB5AA4820DACB44008873ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CAB5AA4B20DAD2D9008873ED /* Service_UTXO.swift */,
 				CA66DC9D20DBC6C500E2D6A8 /* Service_Asset.swift */,
 				CA66DC9F20DBCF4100E2D6A8 /* Service_Transfer.swift */,
 				CA66DCA120DBF1CC00E2D6A8 /* Service_Input.swift */,
@@ -922,7 +927,6 @@
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -938,7 +942,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -993,11 +996,9 @@
 				CA77FB6C20E2BBA600274E32 /* transHistoryVC.swift in Sources */,
 				CA7DAC6720EB8AFB009FD398 /* SendAmountVC.swift in Sources */,
 				CA77FB5720E263DC00274E32 /* AccountsViewController.swift in Sources */,
-				CAB5AA4A20DACB59008873ED /* ServiceReadme.swift in Sources */,
 				CA7815C720DA91340056884E /* WalletHelper.swift in Sources */,
 				CA4D64E420CB524A00B4CE0F /* UIColor+Extension.swift in Sources */,
 				CACB26BE20E40A7B0096BE1B /* AccountsDataSource.swift in Sources */,
-				CAB5AA4C20DAD2D9008873ED /* Service_UTXO.swift in Sources */,
 				CA77FB6E20E2BEA200274E32 /* transDataSource.swift in Sources */,
 				CA8B4F8520D535CF00327085 /* UIView+Extension.swift in Sources */,
 				CA77FB5C20E2679100274E32 /* baseViewController.swift in Sources */,
@@ -1008,6 +1009,7 @@
 				CAB0A48A20C6EF4D0094715E /* ViewController.swift in Sources */,
 				CA77FB6920E2AFC000274E32 /* HomeDataSource.swift in Sources */,
 				CA9BFC1120D92F150040B5BD /* RealmModel_Asset.swift in Sources */,
+				CA96A15C20FF712700010BC1 /* Asset+Constants.swift in Sources */,
 				CA77FB7920E2DDEB00274E32 /* RealmStats.swift in Sources */,
 				CA77FB7020E2BF4E00274E32 /* transHeaderCellView.swift in Sources */,
 				CA9BFC0A20D92D540040B5BD /* Readme.swift in Sources */,
