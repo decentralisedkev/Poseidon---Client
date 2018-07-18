@@ -123,7 +123,6 @@ class SummaryVC: baseSendVC,NVActivityIndicatorViewable {
                          DispatchQueue.main.async {
                         NVActivityIndicatorPresenter.sharedInstance.setMessage("Sending transaction to http://seed5.neo.org:20332")
                         }
-//                        (wallet.SendTransaction(rpcUrl: "http://seed5.neo.org:20332", txdata: response.txdata))
                         wallet.SendTransaction(rpcUrl: "http://seed5.neo.org:20332", txdata: response.txdata, completionHandler: { (success) in
                             DispatchQueue.main.async {
                             NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
@@ -137,10 +136,9 @@ class SummaryVC: baseSendVC,NVActivityIndicatorViewable {
                                     let title = NSAttributedString(string: "Success",
                                                                                  attributes: [NSAttributedStringKey.font: UIFont(name: "Lato-Medium", size: 14)])
                                     let banner = NotificationBanner(attributedTitle: title, attributedSubtitle: subtitle, leftView: nil, rightView: nil, style: BannerStyle.success, colors: nil)
-//                                    let banner = NotificationBanner(title: "Success", subtitle: message, leftView: nil, rightView: nil, style: BannerStyle.success, colors: nil)
+
                                     banner.autoDismiss = true
                                     banner.onTap = {
-//                                        UIPasteboard.general.string = message
                                         banner.dismiss()
                                     }
                                     self.dismiss(animated: true, completion: nil)
@@ -161,22 +159,6 @@ class SummaryVC: baseSendVC,NVActivityIndicatorViewable {
 
                             }
                         })
-                        
-//                        NVActivityIndicatorPresenter.sharedInstance.setMessage("Sending transaction to https://seed1.neo.org:20331")
-//                        (wallet.SendTransaction(rpcUrl: "https://seed1.neo.org:20331", txdata: response.txdata))
-//
-//                        NVActivityIndicatorPresenter.sharedInstance.setMessage("Sending transaction to http://test3.cityofzion.io:8880")
-//                        (wallet.SendTransaction(rpcUrl: "http://test3.cityofzion.io:8880", txdata: response.txdata))
-//
-//                        NVActivityIndicatorPresenter.sharedInstance.setMessage("Sending transaction to http://test2.cityofzion.io:8880")
-//                        (wallet.SendTransaction(rpcUrl: "http://test2.cityofzion.io:8880", txdata: response.txdata))
-                     
-                        
-
-                            
-                        
-                        
-                        
                     }
 
                 }
